@@ -43,7 +43,7 @@ CREATE UNIQUE NONCLUSTERED INDEX NTIDUnique
 GO
 
 /*
-Can't use RAND Function within another function. Gives Error-Invalid use of a side-effecting operator ërandí within a function.
+Can't use RAND Function within another function. Gives Error-Invalid use of a side-effecting operator ‚Äòrand‚Äô within a function.
 Workaround- Generate random no within view and get that in user defined function
 */
 CREATE VIEW GetRandom AS
@@ -526,7 +526,7 @@ INSERT INTO StudentSpecialization(StudentID,ProgramID,CollegeID,IsMajor)
 
 INSERT INTO CourseInformation(CourseCode,CourseNo,CourseTitle,CourseDescription)
     VALUES ('ANT',574,'Anthropology and Physical Design',                          'Interrelationship of social and spatial organization in traditional and modern societies. Nonverbal communication: use of space, territoriality, and impact of physical design on human behavior.'),
-	       ('ENG',615,'Open Poetry Workshop',                                      'Participants write original poems, receive each otherís critiques, and revise'),
+	       ('ENG',615,'Open Poetry Workshop',                                      'Participants write original poems, receive each other‚Äôs critiques, and revise'),
 		   ('ENG',716,'Second Poetry Workshop',                                    'Secondary poetry workshop in the M.F.A. program sequence.'),
 		   ('CEN',573,'Principles and Design in Air Pollution Control',            'Fundamental principles of pollution control, design of control processes and equipment. Criteria for selection of control processes and equipment for gaseous and particulate pollutants.'),
 		   ('CEN',600, 'Selected Topics',                                          'Exploration of a topic (to be determined) not covered by the standard curriculum but of interest to faculty and students in a particular semester.'),
@@ -730,7 +730,7 @@ INSERT INTO Requirement(Description)
 		   ('Adhere to all health code and University Food Service dress code policies, which states that all employees are to be clean shaven.'),
 		   ('Full time student status'),
 		   ('Good customer service skills'),
-		   ('Tutors must have a demonstrated ability to tutor the specific subject area and must have earned at least a ìB+î in the subject area'),
+		   ('Tutors must have a demonstrated ability to tutor the specific subject area and must have earned at least a ‚ÄúB+‚Äù in the subject area'),
 		   ('Exhibit effective verbal and written communication skills and inter personal skills'),
 		   ('Must hold PhDs or other highest level terminal degrees (designated as acceptable by a university or college'),
 		   ('Tenured Professor with 7+ years of experience');
